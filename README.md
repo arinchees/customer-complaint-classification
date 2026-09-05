@@ -4,8 +4,6 @@
 
 В работе сравниваются классические NLP-подходы и Transformer-модель: **Logistic Regression**, **LinearSVC**, **Naive Bayes** и **DistilBERT**. Дополнительно исследуются тематическое моделирование `LDA` и кластеризация `K-Means`.
 
-> **Ключевой результат:** лучшей моделью оказалась `Logistic Regression + TF-IDF` с `F1 = 0.834` и `Accuracy = 0.835`. На используемой выборке она превзошла fine-tuned DistilBERT (`F1 = 0.793`).
-
 ## Постановка задачи
 
 Цель проекта — автоматически определять категорию клиентского обращения по его тексту.
@@ -190,22 +188,6 @@ customer-complaint-classification/
 └── notebooks/
     └── customer_complaint_classification.ipynb
 ```
-
-## Запуск
-
-Установить зависимости:
-
-```bash
-pip install -r requirements.txt
-```
-
-После этого открыть:
-
-```text
-notebooks/customer_complaint_classification.ipynb
-```
-
-Для fine-tuning DistilBERT рекомендуется GPU-среда, например Google Colab.
 
 ## Стек
 
