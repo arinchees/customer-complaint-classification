@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+torch
+transformers
+datasets
+accelerate
+evaluate
+wordcloud
+tqdm
+kagglehub[pandas-datasets]

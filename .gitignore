@@ -1,0 +1,20 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model / training outputs
+complaints_distilbert/
+checkpoint-*/
+wandb/
+runs/
+
+# Local data / cache
+data/
+*.csv
+*.zip
+.cache/
